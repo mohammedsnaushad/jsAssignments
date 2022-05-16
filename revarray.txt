@@ -1,0 +1,2 @@
+const numstring = [10, "Multi", 13, "National"];
+console.log(numstring.reverse());

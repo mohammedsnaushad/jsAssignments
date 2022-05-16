@@ -1,0 +1,15 @@
+function leapYears() {
+while (yearsPrinted < 5)
+{ 
+	if ((currentYear % 4 === 0))
+	{
+		document.write(currentYear);
+		yearsPrinted++;
+		currentYear++;
+	}
+	else
+ 	{
+		currentYear++;
+	}
+}
+}
