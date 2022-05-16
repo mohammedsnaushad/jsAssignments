@@ -1,0 +1,33 @@
+
+//For loop
+var num = [12000, 22000, 33000, 44000];
+var totalval = 0;
+for (var i = 0; i < num.length; i++)
+{
+    totalval += num[i];
+}
+console.log(totalval);
+
+
+//While loop
+
+var num = [12000, 22000, 33000, 44000];
+var totalval = 0;
+var i=0;
+while(i<num.length)
+{
+    totalval += num[i];
+    i++;
+}
+console.log(totalval);
+
+//Do-while
+var num = [12000, 22000, 33000, 44000];
+var totalval = 0;
+var i=0;
+while(i<num.length)
+{
+    totalval += num[i];
+    i++;
+}
+console.log(totalval);
